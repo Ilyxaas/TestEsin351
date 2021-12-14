@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZV+1eB8F+TisMcIE/Qie5M62y7ttcnOGpk3/imvOUDLvVh3D0/dGUAiqVSPRrCXtXnAMoSCgHin0Yhm+ifCElw==",
+  "success": true,
+  "projectFilePath": "/Users/ilya/Desktop/СГУ/TestProj/TestProject1/TestProject1.csproj",
+  "expectedPackageFiles": [
+    "/Users/ilya/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/microsoft.codecoverage/17.0.0/microsoft.codecoverage.17.0.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/microsoft.net.test.sdk/17.0.0/microsoft.net.test.sdk.17.0.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/microsoft.testplatform.objectmodel/17.0.0/microsoft.testplatform.objectmodel.17.0.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/microsoft.testplatform.testhost/17.0.0/microsoft.testplatform.testhost.17.0.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/nunit/3.13.2/nunit.3.13.2.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/nunit3testadapter/4.1.0/nunit3testadapter.4.1.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/openqa.selenium.winium/1.0.0.4/openqa.selenium.winium.1.0.0.4.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/selenium.webdriver/4.1.0/selenium.webdriver.4.1.0.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/selenium.webdriver.chromedriver/96.0.4664.4500/selenium.webdriver.chromedriver.96.0.4664.4500.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: OpenQA.Selenium.Winium 1.0.0.4 requires Selenium.WebDriver (= 3.141.0) but version Selenium.WebDriver 4.1.0 was resolved.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenQA.Selenium.Winium 1.0.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenQA.Selenium.Winium",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
